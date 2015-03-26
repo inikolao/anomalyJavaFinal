@@ -1,0 +1,31 @@
+#java -Xms1G -Xmx6G -jar clasy-0.1.jar
+#!/bin/bash
+source /root/local/share/jubatus/jubatus.profile
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9200&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9201&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9202&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9203&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9204&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9205&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9206&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9207&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9208&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9209&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9210&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9211&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9212&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9213&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9214&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9215&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9216&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9217&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9218&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9219&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9220&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9221&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9222&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9223&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9224&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9225&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9226&
+jubaanomaly --configpath jubaanomaly-config.json --rpc-port 9227&
