@@ -41,15 +41,15 @@ public class main {
     public static void main(String[] args) throws UnknownHostException, IOException, FileNotFoundException, InterruptedException {
     InetAddress thisIp = null;
    String filename="";
-   //String host="83.212.112.190";
+   String host="83.212.112.190";
    AnomalyClient cl;
-   String host="192.168.2.5";
+   //String host="192.168.2.5";
    try{
    host=thisIp.getHostAddress().toString();}
    catch (NullPointerException ex){}
    int port=9200;
    String name="test";
-   int timeout=10;
+   int timeout=30;
    client myclient= new client(host,port,name,timeout);
    boolean t;
    int i;
@@ -83,7 +83,7 @@ public class main {
     size=mtport.getSize();
     nams=mtport.getFilename();
     ptrs=mtport.getPort();
-    for(i=0;i<3;i++){
+    for(i=0;i<size;i++){
         myclient.setName(nams [i]);//.replaceAll("\\s","")
         myclient.setPort(ptrs [i]);
         cl=openClient(myclient);
